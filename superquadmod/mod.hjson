@@ -1,0 +1,9 @@
+{
+  "name": "superquadmod",
+  "displayName": "超级雷霆",
+  "author": "杉沢御风",
+  "description": "测试用作弊模组",
+  "version": "1.0",
+  "minGameVersion": "160",
+  "dependencies": []
+}

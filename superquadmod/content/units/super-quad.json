@@ -1,0 +1,71 @@
+{
+    "type": "flying",
+    "name": "super-quad",
+    "localizedName": "超级雷霆",
+    "health": 320000,
+    "speed": 5,
+    "hitSize": 10,
+    "research": "core-shard",
+
+    "envDisabled": 0,
+
+    "rotateSpeed": 5,
+
+    "flying": true,
+    "buildSpeed": 5,
+
+    "engines": [
+        {"x": -5, "y": -5, "radius": 2.2, "rotation": -90},
+        {"x": 5, "y": -5, "radius": 2.2, "rotation": -90}
+    ],
+    "engineSize": 0,
+    "abilities": [
+        {"type": "MoveEffectAbility", "x": -5, "y": -5, "effect": "missileTrail", "color": "84F491", "effectParam": 2.0, "interval": 3},
+        {"type": "MoveEffectAbility", "x": 5, "y": -5, "effect": "missileTrail", "color": "84F491", "effectParam": 2.0, "interval": 3}
+    ],
+
+    "abilities": [
+        {
+            "type": "RepairFieldAbility",
+            "amount": 300,
+            "reload": 90,
+            "range": 150
+        }
+    ],
+
+    "weapons": [
+        {
+            "name": "ring-gamma-main-weapon",
+            "x": 0,
+            "y": 0,
+            "rotate": true,
+            "mirror": false,
+            "reload": 90,
+            "shootY": 0,
+            "bullet": {
+                "type": "BasicBulletType",
+                "speed": 5,
+                "lifetime": 30,
+                "keepVelocity": false,
+                "width": 16,
+                "height": 16,
+                "hitSize": 20,
+                "healPercent": 5,
+                "spin": 4,
+                "shrinkX": 0.7,
+                "shrinkY": 0.7,
+                "backColor": "84F491",
+                "frontColor": "FFFFFF",
+                "damage": 1000,
+                "splashDamage": 1000,
+                "splashDamageRadius": 1000,
+                "hitColor": "84F491",
+                "hitEffect": ["greenBomb", "shockwave"],
+                "despawnEffect": ["greenBomb", "shockwave"],
+                "collidesGround": true,
+                "collidesAir": true,
+                "collidesTeam": true
+            }
+        }
+    ]
+}

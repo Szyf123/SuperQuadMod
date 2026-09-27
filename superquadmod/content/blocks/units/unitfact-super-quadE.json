@@ -1,0 +1,28 @@
+{
+    "type": "UnitFactory",
+    "name": "unitfact-super-quadE",
+    "localizedName": "超级雷霆工厂",
+    "description": "作弊测试用",
+    "size": 2,
+    "health": 1000,
+    "category": "units",
+
+    "requirements": [
+        "beryllium/1",
+    ],
+    "researchCostMultiplier": 1,
+
+    "research": {
+        "parent": "core-bastion"
+    }
+
+    "plans": [
+        {
+            "unit": "super-quad",
+            "time": 150,
+            "requirements": [
+                "beryllium/1"
+            ]
+        }
+    ]
+}

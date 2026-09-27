@@ -1,0 +1,21 @@
+{
+    "type": "PayloadVoid",
+    "name": "payload-void",
+    "localizedName": "雷霆载荷黑洞",
+    "description": "作弊测试用",
+    "size": 2,
+    "health": 1000,
+    "category": "units",
+
+    "acceptsPayload": true,
+    "acceptsUnitPayloads": true,
+
+    "requirements": [
+        "copper/1",
+    ],
+    "researchCostMultiplier": 1,
+
+    "research": {
+        "parent": "core-shard"
+    }
+}
